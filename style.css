@@ -1,13 +1,12 @@
-
 @import url(https: //fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -15,7 +14,7 @@ body{
   background: cadetblue;
 }
 
-.container{
+.container {
   position: relative;
   max-width: 300px;
   width: 100%;
@@ -25,7 +24,7 @@ body{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
 
-.display{
+.display {
   height: 80px;
   width: 100%;
   outline: none;
@@ -35,10 +34,9 @@ body{
   font-size: 25px;
   color: #000e1a;
   pointer-events: none;
-
 }
 
-.button{
+.button {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
